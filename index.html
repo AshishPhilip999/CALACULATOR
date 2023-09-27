@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>Calculator</title>
+    <link rel="icon" type="icon" href="Calculator_512.webp"/>
+    <link rel="stylesheet" href="index.css"/>  
+   
+    
+   
+</head>
+  
+<body>
+    <script src="cal.js"></script>
+    <h1 id="h">Calaculator</h1>
+    <table id="calcu">
+        <tr>
+            <td colspan="3">
+                <input type="text"  name="inputfield" placeholder="0"  id="res" minlength="1" maxlength="3" style="border-radius: 20px;border-color:red;padding-left:50px;">
+            </td>
+           
+        </tr>
+  
+        <tr>
+            <td><input type="button" value="1" class="num"></td>
+            <td><input type="button" value="2" class="num"></td>
+            <td><input type="button" value="3" class="num"></td>
+            <td><input type="button" value="*" id="sy1"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" class="num"></td>
+            <td><input type="button" value="5" class="num"></td>
+            <td><input type="button" value="6" class="num"></td>
+            <td><input type="button" value="/" id="sy2"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" class="num"></td>
+            <td><input type="button" value="8" class="num"></td>
+            <td><input type="button" value="9" class="num"></td>
+            <td><input type="button" value="+" id="sy4"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="0" class="num"></td>
+            
+            <td><input type="button" value="=" id="sy5"></td>
+            <td><input type="button" value="-" id="sy3"></td>
+            <td ><input type="button" value="c" onclick="clr()"></td>
+        </tr>
+        <tr>
+            
+            <td><input type="button" value="prev"></td>
+            <td><input type="button" value="next"></td>
+
+        </tr>
+        
+
+    </table>
+</body>
+  
+</html> 
