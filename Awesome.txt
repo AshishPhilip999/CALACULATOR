@@ -1,0 +1,5 @@
+It looks good bro.
+
+Just one thing, avoid using var in JS, instead use let or const.
+
+:) Great Work !
